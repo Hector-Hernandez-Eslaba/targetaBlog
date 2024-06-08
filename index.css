@@ -7,7 +7,7 @@
 body {
     position: absolute;
     align-items: center;
-    margin: 164px 0 0 30%;
+    margin: 164px 0 0 0;
     background-color: #FAFAF9;
 }
 
@@ -19,6 +19,7 @@ main {
     border-radius: 25px;
     width: 350px;
     height: 400px;
+    left: 10%;
 }
 
 .Imagen img {
