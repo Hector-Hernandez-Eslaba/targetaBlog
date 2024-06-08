@@ -9,6 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 430px;
     background-color: #FAFAF9;
 }
 
@@ -19,7 +20,7 @@ main {
     border-radius: 25px;
     width: 350px;
     height: 400px;
-    left: 0;
+    margin: 164px;
 }
 
 .Imagen img {
