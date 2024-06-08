@@ -7,7 +7,7 @@
 body {
     position: absolute;
     align-items: center;
-    margin: 164px 20%;
+    margin: 164px auto;
     background-color: #FAFAF9;
 }
 
