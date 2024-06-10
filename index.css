@@ -85,6 +85,91 @@ main {
 }
 
 
+@media (min-width: 500px) and (max-width: 760px) {
+    
+    body {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FAFAF9;
+        width: 400px;
+    }
+    
+    main {
+        position: relative;
+        border: #6C727F;
+        background-color: #FFFFFF;
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+        border-radius: 25px;
+        width: 368px;
+        height: 400px;
+    }
+    
+    .Imagen img {
+        position: relative;
+        margin: 16px;
+        width: 336px;
+        height: 152px;
+        border-radius: 20px;
+    }
+    
+    .Box-Desing {
+        position: relative;
+        left: 16px;
+        width: 60px;
+        height: 25px;
+        border-radius: 20px;
+        background-color: #E6D6FC;
+    }
+    
+    .Desing{
+        position: absolute;
+        color: #883AE1;
+        top: 6px;
+        left: 10px;
+        font-family: "Sora", sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .Titulo {
+        position: relative;
+        margin: 16px 0 0 16px;
+        color: #20293A;
+        font-family: "Sora", sans-serif;
+        font-size: 18px;
+    }
+    
+    .Box-Texto {
+        margin: 6px 0 0 16px;
+        color: #6C727F;
+        font-family: "Sora", sans-serif;
+        font-size: 14px;
+    }
+    
+    
+    
+    .Box-Footer {
+        position: relative;
+        border-top: #6C727F solid 1px;
+        width: 365px;
+        height: 50px;
+        margin: 20px 0 0 0;
+    }
+    
+    .Footer {
+        position: absolute;
+        font-family: "Sora", sans-serif;
+        font-size: 12px;
+        top: 25px;
+        left: 16px;    
+    }
+}
+
+
+
 @media (min-width: 1200px) {
     body {
         position: absolute;
