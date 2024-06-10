@@ -170,7 +170,7 @@ main {
 
 
 
-@media (min-width: 1200px) {
+@media (min-width: 765px) {
     body {
         position: absolute;
         align-items: center;
